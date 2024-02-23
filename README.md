@@ -53,7 +53,7 @@ An example of FLAN2022:
 {
     "task name": "natural_questions_open:1.0.0",
     "task source": "Flan2021",
-    "template": [  // task prompt
+    "template": [
         "Answer this question:\n\n{question}?",
         "{answer}"
     ],
@@ -65,7 +65,7 @@ An example of FLAN2022:
     "output_json": {
         "answer": "Carolina Panthers"
     },
-    "output features": {  // control information
+    "output features": {
         "answer": {
             "type": "string"
         }
