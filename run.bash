@@ -33,7 +33,7 @@ ${run_command} JsonTuning.py \
     --add_output_features ${add_output_features} \
     --add_label_space ${add_label_space} \
     --shuffle ${shuffle} \
-    --text_version ${text_version} \
+    --text_tuning ${text_tuning} \
     --peft_type lora \
     --lora_target_modules ${lora_target_modules} \
     --lora_r ${lora_r} \
